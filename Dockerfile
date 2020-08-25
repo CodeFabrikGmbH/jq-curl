@@ -5,5 +5,7 @@ RUN apk update \
     bash \
     jq \
     curl \
-    python2 \
+    python3 \
+    py3-pip \
     && rm -rf /tmp/* /var/cache/apk/*
+RUN pip3 install requests
