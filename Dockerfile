@@ -5,4 +5,5 @@ RUN apk update \
     bash \
     jq \
     curl \
+    python2 \
     && rm -rf /tmp/* /var/cache/apk/*
